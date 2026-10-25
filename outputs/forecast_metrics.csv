@@ -1,0 +1,2 @@
+model,train_rows,test_rows,test_start,test_end,mae,rmse,baseline_mae
+Random Forest,60400,15150,2025-12-25,2026-10-23,6.705398327307783,10.35374995567593,6.993563036303631
