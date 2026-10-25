@@ -1,0 +1,31 @@
+{
+    "input_file": "air_quality_daily.csv",
+    "initial_rows": 77050,
+    "initial_columns": 19,
+    "final_rows": 77050,
+    "final_columns": 24,
+    "cities": 50,
+    "start_date": "2022-08-05",
+    "end_date": "2026-10-23",
+    "invalid_dates_removed": 0,
+    "invalid_cities_removed": 0,
+    "duplicate_city_date_records": 0,
+    "missing_cells_after_cleaning": 0,
+    "extreme_value_flags": {
+        "pm2_5_mean": 4273,
+        "pm2_5_max": 4176,
+        "pm10_mean": 5001,
+        "pm10_max": 5410,
+        "no2_mean": 4412,
+        "so2_mean": 6569,
+        "o3_8h_max": 616,
+        "co_8h_max": 5170,
+        "dust_mean": 8880,
+        "aod_mean": 1999,
+        "us_aqi_max": 725,
+        "hours_available": 0,
+        "india_aqi": 3007,
+        "india_aqi_pm": 6840
+    },
+    "output_file": "data\\processed\\air_quality_cleaned.csv"
+}
